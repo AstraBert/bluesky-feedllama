@@ -1,0 +1,6 @@
+gradio
+atproto
+torch
+accelerate
+transformers
+bitsandbytes
