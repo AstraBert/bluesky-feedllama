@@ -37,4 +37,4 @@ def get_feed():
     return strtort
 
 iface = gr.Interface(fn=get_feed, inputs=None, outputs=gr.Markdown(), title="BlueSky User Feed", theme='shivi/calm_seafoam')
-iface.launch(auth=get_auth, auth_message="Insert here your BlueSky username/handle and your password")
+iface.launch(auth=get_auth, auth_message="Insert here your BlueSky username/handle and your password", server_name="0.0.0.0", server_port=7860)
