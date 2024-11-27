@@ -8,7 +8,7 @@ from transformers import pipeline
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig  
 
 
-model_name = "Qwen/Qwen2.5-3B-Instruct"
+model_name = "/root/.cache/huggingface/hub/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1/"
 quantization_config = BitsAndBytesConfig(load_in_4bit=True,
     bnb_4bit_compute_dtype=torch.bfloat16,
     bnb_4bit_use_double_quant=True,

@@ -1,0 +1,5 @@
+*.py
+compose.yml
+CONTRIBUTING.md
+.gitignore
+.github/
